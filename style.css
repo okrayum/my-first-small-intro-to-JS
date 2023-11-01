@@ -1,0 +1,58 @@
+*, html, body, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    width: 25vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5em;
+        
+}
+
+#colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#name {
+    height: 2em;
+}
+
+#total {
+    background-color: hsla(210, 14%, 53%, 0.4);
+    height: 60vh;
+    width: 50vw;
+    border: .33em solid gray;
+    border-radius: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 2em;
+    border-radius: .5em;
+}
+
+.para {
+    padding: 1em;
+    margin-top: 5em;
+    font-size: 4em;
+}
+
